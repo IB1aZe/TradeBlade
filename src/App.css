@@ -1,0 +1,20 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+@keyframes horizontal-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-horizontal-scroll {
+  display: flex;
+  width: max-content;
+  animation: horizontal-scroll 20s linear infinite;
+}
