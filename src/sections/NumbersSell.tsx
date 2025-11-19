@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function NumbersSell() {
   return (
     <section className="bg-white text-[#070A1B] py-16 px-6">

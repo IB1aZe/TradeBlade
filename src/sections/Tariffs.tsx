@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 export default function Tariffs() {
   const [active, setActive] = useState<"left" | "right">("left");
 

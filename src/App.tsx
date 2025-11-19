@@ -1,6 +1,3 @@
-import React from "react";
-
-// Sections
 import NavBar from "./sections/NavBar";
 import Header from "./sections/Header";
 import NumbersSell from "./sections/NumbersSell";

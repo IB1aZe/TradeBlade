@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Header() {
   return (
     <section className="min-h-[608px] py-4 px-4 md:py-24 relative flex flex-col md:flex-col items-start md:items-center md:justify-between">

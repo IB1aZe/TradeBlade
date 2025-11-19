@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import Accordion from "@mui/material/Accordion";
 import Typography from "@mui/material/Typography";

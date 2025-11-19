@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function CompanyInfo() {
   return (
     <div className="w-full bg-white text-[#070A1B] py-16 px-6 sm:px-10 lg:px-20 flex flex-col lg:flex-row items-center md:justify-between gap-16 lg:gap-10">
