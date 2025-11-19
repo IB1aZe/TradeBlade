@@ -98,7 +98,7 @@ export default function PastTrades() {
             >
               {/* Background img */}
               <img
-                src="./src/assets/card-img.svg"
+                src="/card-img.svg"
                 alt=""
                 className="absolute w-32 h-32 sm:w-40 sm:h-40 right-0 top-0 opacity-30"
               />

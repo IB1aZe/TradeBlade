@@ -9,7 +9,7 @@ export default function NavBar() {
     <header className="flex justify-between items-center h-16 px-6 md:px-10 border-b border-[#1B1F3B]">
       {/* Logo */}
       <div className="hidden lg:flex items-center gap-2">
-        <img src="./public/logo.svg" alt="TradeBlade" className="h-12 w-28" />
+        <img src="/logo.svg" alt="TradeBlade" className="h-12 w-28" />
       </div>
 
       {/* Desktop meu */}
@@ -34,11 +34,7 @@ export default function NavBar() {
       </div>
 
       {/* Mobile button */}
-      <img
-        src="./public/logo.svg"
-        alt="TradeBlade"
-        className="h-10 w-24 md:hidden"
-      />
+      <img src="/logo.svg" alt="TradeBlade" className="h-10 w-24 md:hidden" />
       <button
         className="top-1 right-1 md:hidden text-white"
         onClick={() => setOpen(!open)}
