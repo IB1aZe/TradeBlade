@@ -48,7 +48,7 @@ export default function Footer() {
         {/* Right side */}
         <div className="w-full md:w-1/3 flex flex-col justify-between py-1 md:py-5 px-4 md:px-16 lg:px-24 items-start md:items-end">
           {/* Logo */}
-          <img src="./src/assets/footer-logo.svg" alt="Logo" className="w-40" />
+          <img src="./public/footer-logo.svg" alt="Logo" className="w-40" />
 
           {/* Copyrite */}
           <p className="font-plex font-normal opacity-50 text-sm mt-10 md:mt-0">

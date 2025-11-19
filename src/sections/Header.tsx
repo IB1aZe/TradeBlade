@@ -4,7 +4,7 @@ export default function Header() {
       {/* Up side */}
       <div className="lg:hidden">
         <img
-          src="./src/assets/eth&usdt.svg"
+          src="./public/eth&usdt.svg"
           alt=""
           className="w-[260px] md:w-[320px] lg:w-[420px] mx-auto md:mx-0"
         />
@@ -42,7 +42,7 @@ export default function Header() {
         {/* Right img */}
         <div className="hidden lg:flex lg:pl-24">
           <img
-            src="./src/assets/eth&usdt.svg"
+            src="./public/eth&usdt.svg"
             alt=""
             className="w-[260px] md:w-[320px] lg:w-[420px]"
           />

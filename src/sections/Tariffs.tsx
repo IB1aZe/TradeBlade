@@ -56,10 +56,7 @@ export default function Tariffs() {
               ].map((text, i) => (
                 <div key={i}>
                   <div className="flex gap-3">
-                    <img
-                      src="./src/assets/frame-check.svg"
-                      className="w-4 h-4"
-                    />
+                    <img src="./public/frame-check.svg" className="w-4 h-4" />
                     <p className="text-white text-sm leading-5">{text}</p>
                   </div>
                   <hr className="border-t-2 border-dashed border-gray-600" />
@@ -103,10 +100,7 @@ export default function Tariffs() {
               ].map((text, i) => (
                 <div key={i}>
                   <div className="flex gap-3">
-                    <img
-                      src="./src/assets/frame-check.svg"
-                      className="w-4 h-4"
-                    />
+                    <img src="./public/frame-check.svg" className="w-4 h-4" />
                     <p className="text-white text-sm leading-5">{text}</p>
                   </div>
                   <hr className="border-t-2 border-dashed border-gray-400" />

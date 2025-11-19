@@ -1,4 +1,3 @@
-
 export default function GetStarted() {
   return (
     <div className="flex flex-col md:flex-row w-full bg-[#6A54FF] rounded-sm items-center justify-between gap-6 px-6 md:px-16 lg:px-24 py-8">

@@ -9,11 +9,7 @@ export default function NavBar() {
     <header className="flex justify-between items-center h-16 px-6 md:px-10 border-b border-[#1B1F3B]">
       {/* Logo */}
       <div className="hidden lg:flex items-center gap-2">
-        <img
-          src="./src/assets/logo.svg"
-          alt="TradeBlade"
-          className="h-12 w-28"
-        />
+        <img src="./public/logo.svg" alt="TradeBlade" className="h-12 w-28" />
       </div>
 
       {/* Desktop meu */}
@@ -39,7 +35,7 @@ export default function NavBar() {
 
       {/* Mobile button */}
       <img
-        src="./src/assets/logo.svg"
+        src="./public/logo.svg"
         alt="TradeBlade"
         className="h-10 w-24 md:hidden"
       />
